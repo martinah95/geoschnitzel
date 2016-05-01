@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geoschnitzel</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<!-- Main menu -->
+<div data-role="page" id="main">
+
+	<div data-role="header">
+		<h1>Geoschnitzel</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<a href="#joinGame" class="ui-btn">Spiel beitreten</a>
+		<a href="#createGame" class="ui-btn">Spiel erstellen</a>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- join a game -->
+<div data-role="page" id="joinGame">
+
+	<div data-role="header">
+		<h1>Spiel beitreten</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		
+		<label for="searchGame">Vorhandenes Spiel suchen:</label>
+		<input name="password" id="searchGame" value="" placeholder="Spielname" type="search">
+		<button class="ui-btn">Suchen</button>
+		
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- create a game -->
+<div data-role="page" id="createGame">
+
+	<div data-role="header">
+		<h1>Spiel erstellen</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		
+		<label for="newGameName">Spielname eingeben:</label>
+		<input name="password" id="newGameName" value="" placeholder="Spielname" type="text">
+		<button class="ui-btn">Spiel erstellen</button>
+		
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body> 
+</html>
